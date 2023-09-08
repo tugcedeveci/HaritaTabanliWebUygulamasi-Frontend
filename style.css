@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.header-navbar {
+  background-color: #446b77;
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  position: sticky; /* bar yapışsın*/
+}
+.btn {
+  display: inline-flex;
+  color: #f2efe9;
+  font-size: 20px;
+  border: none;
+  background-color: #446b77;
+  font-family: "Open Sans", sans-serif;
+}
+#btn1 {
+  margin-right: 20px;
+}
+
+.btn:hover {
+  color: #c3d3c6;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  margin-right: 10px;
+}
+.saveButton {
+  background-color: #01599d;
+  color: white;
+  margin: 10px;
+  padding: 5px 10px;
+}
