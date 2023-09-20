@@ -39,8 +39,63 @@ body {
   margin-right: 10px;
 }
 .saveButton {
-  background-color: #01599d;
+  background-color: #253137;
   color: white;
   margin: 10px;
-  padding: 5px 10px;
+  padding: 10px 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.saveButton:hover {
+  background-color: #35434a;
+  color: #f2efe9;
+}
+
+.delete-button {
+  border: none;
+  color: red;
+}
+.update-button {
+  border: none;
+  color: blue;
+  padding-right: 20px;
+}
+.delete-button:hover {
+  color: rgb(160, 0, 0);
+}
+.update-button:hover {
+  color: rgb(2, 2, 132);
+}
+.delete-p {
+  text-align: center;
+  margin: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+#confirmDeleteButton {
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #253137;
+}
+
+#cancelDeleteButton {
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #253137;
+}
+.updateSaveButton {
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #253137;
+  color: white;
+}
+.updateLocationButton {
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #253137;
+  color: white;
 }
